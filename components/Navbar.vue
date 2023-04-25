@@ -16,32 +16,30 @@
 <script>
 export default {
     name: 'NavbarComponent',
-    data() {
-        return {
-            navbarItems: [
-                {
-                    title: 'Home',
-                    to: '/#home',
-                },
-                {
-                    title: 'About',
-                    to: { name: 'index' },
-                },
-                {
-                    title: 'Skills',
-                    to: { name: 'index' },
-                },
-                {
-                    title: 'Work',
-                    to: { name: 'index' },
-                },
-                {
-                    title: 'Contact',
-                    to: { name: 'index' },
-                },
-            ]
-        }
-    }
+    data: () => ({
+        navbarItems: [
+            {
+                title: 'Home',
+                to: '/#home',
+            },
+            {
+                title: 'About',
+                to: { name: 'index' },
+            },
+            {
+                title: 'Skills',
+                to: { name: 'index' },
+            },
+            {
+                title: 'Work',
+                to: { name: 'index' },
+            },
+            {
+                title: 'Contact',
+                to: { name: 'index' },
+            },
+        ]
+    })
 }
 </script>
 <style lang="scss" scoped>
