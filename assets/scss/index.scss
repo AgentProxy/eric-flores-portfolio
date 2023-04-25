@@ -1,0 +1,16 @@
+@import '~/assets/scss/fonts.scss';
+
+$primary: hsl(0, 0%, 4%);
+
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all";
+
+$family-serif: "Hacked", serif;
+$family-primary: $family-serif;
+$navbar-height: 5rem;
+$navbar-item-img-max-height: 3.5rem;
+$navbar-background-color: $primary;
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
